@@ -91,7 +91,7 @@ public class AboutUsActivity extends AppCompatActivity {
     public void call(View view)
     {
         Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:09930947174"));
+        callIntent.setData(Uri.parse("tel:0123456789"));
 
         if (ActivityCompat.checkSelfPermission(AboutUsActivity.this,
                 Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
